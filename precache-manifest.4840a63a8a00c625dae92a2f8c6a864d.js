@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6530b5a077824a57e6b8c2e446666f0e",
+    "revision": "23d271d860ea255f1956f37badee90ba",
     "url": "/Radix-Sort-Visualiser/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Radix-Sort-Visualiser/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "553a29612c2d2a3b9315",
-    "url": "/Radix-Sort-Visualiser/static/css/main.30afbf5e.chunk.css"
+    "revision": "17f5a16e84b0a53acea9",
+    "url": "/Radix-Sort-Visualiser/static/css/main.9d93abe1.chunk.css"
   },
   {
     "revision": "e6448e7f43fef27332c6",
     "url": "/Radix-Sort-Visualiser/static/js/2.e923b783.chunk.js"
   },
   {
-    "revision": "553a29612c2d2a3b9315",
+    "revision": "17f5a16e84b0a53acea9",
     "url": "/Radix-Sort-Visualiser/static/js/main.b55ef6f4.chunk.js"
   },
   {

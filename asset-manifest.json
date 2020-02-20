@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Radix-Sort-Visualiser/static/css/main.30afbf5e.chunk.css",
+    "main.css": "/Radix-Sort-Visualiser/static/css/main.9d93abe1.chunk.css",
     "main.js": "/Radix-Sort-Visualiser/static/js/main.b55ef6f4.chunk.js",
     "main.js.map": "/Radix-Sort-Visualiser/static/js/main.b55ef6f4.chunk.js.map",
     "runtime-main.js": "/Radix-Sort-Visualiser/static/js/runtime-main.1b7b0fe4.js",
@@ -9,16 +9,16 @@
     "static/js/2.e923b783.chunk.js": "/Radix-Sort-Visualiser/static/js/2.e923b783.chunk.js",
     "static/js/2.e923b783.chunk.js.map": "/Radix-Sort-Visualiser/static/js/2.e923b783.chunk.js.map",
     "index.html": "/Radix-Sort-Visualiser/index.html",
-    "precache-manifest.3779b8e448c112eefd520aba7ae2b68a.js": "/Radix-Sort-Visualiser/precache-manifest.3779b8e448c112eefd520aba7ae2b68a.js",
+    "precache-manifest.4840a63a8a00c625dae92a2f8c6a864d.js": "/Radix-Sort-Visualiser/precache-manifest.4840a63a8a00c625dae92a2f8c6a864d.js",
     "service-worker.js": "/Radix-Sort-Visualiser/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/Radix-Sort-Visualiser/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.30afbf5e.chunk.css.map": "/Radix-Sort-Visualiser/static/css/main.30afbf5e.chunk.css.map"
+    "static/css/main.9d93abe1.chunk.css.map": "/Radix-Sort-Visualiser/static/css/main.9d93abe1.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.1b7b0fe4.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.e923b783.chunk.js",
-    "static/css/main.30afbf5e.chunk.css",
+    "static/css/main.9d93abe1.chunk.css",
     "static/js/main.b55ef6f4.chunk.js"
   ]
 }
