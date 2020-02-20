@@ -85,6 +85,15 @@ export default class SortingVisualiser extends React.Component {
       <Navbar bg="light" expand="lg">
         <Navbar.Brand>Radix Sort Visualiser (LSD)</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand href="http://oisin-morrison.herokuapp.com" target="_blank">
+          <img
+            src="https://i.imgur.com/NlNqrth.png"
+            width="100"
+            height="auto"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
           <Nav.Link href="https://www.google.com/">About</Nav.Link>
