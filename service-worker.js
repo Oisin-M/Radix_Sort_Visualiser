@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Radix-Sort-Visualiser/precache-manifest.c5f152298c3f279aade114e408ceb341.js"
+  "/Radix-Sort-Visualiser/precache-manifest.f844c5dfbece53ab7ec28625e6333a2a.js"
 );
 
 self.addEventListener('message', (event) => {
