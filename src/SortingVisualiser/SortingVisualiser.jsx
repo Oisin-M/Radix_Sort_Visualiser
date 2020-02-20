@@ -6,6 +6,7 @@ import {Container, Row, Navbar, Nav, NavDropdown, Button} from 'react-bootstrap'
 const ANIMATION_SPEED_MS = 1;
 const NUMBER_OF_ARRAY_BARS = 50;
 const MAX_SIZE = 1500;
+const SCREEN_HEIGHT = (window.screen.height-150)/2000;
 const PRIMARY_COLOR = 'turquoise';
 const SECONDARY_COLOR = 'red';
 
@@ -30,6 +31,7 @@ export default class SortingVisualiser extends React.Component {
     }
     this.setState({array});
     console.log(array);
+    console.log(MAX_SIZE);
   }
 
   Radix_Sort_LSD() {
@@ -41,7 +43,7 @@ export default class SortingVisualiser extends React.Component {
       for (let j = 0; j < animation.length; j++){
         setTimeout(() => {
         const barStyle = arrayBars[j].style;
-        barStyle.height=`${animation[j]/2}px`;
+        barStyle.height=`${animation[j]*SCREEN_HEIGHT}px`;
         barStyle.backgroundColor=SECONDARY_COLOR;
         setTimeout(() => {
           barStyle.backgroundColor=PRIMARY_COLOR;
@@ -62,7 +64,7 @@ export default class SortingVisualiser extends React.Component {
       for (let j = 0; j < animation.length; j++){
         setTimeout(() => {
         const barStyle = arrayBars[j].style;
-        barStyle.height=`${animation[j]/2}px`;
+        barStyle.height=`${animation[j]*SCREEN_HEIGHT}px`;
         barStyle.backgroundColor=SECONDARY_COLOR;
         setTimeout(() => {
           barStyle.backgroundColor=PRIMARY_COLOR;
@@ -103,7 +105,7 @@ export default class SortingVisualiser extends React.Component {
             key={idx}
             style={{
               backgroundColor: PRIMARY_COLOR,
-              height: `${value/2}px`,
+              height: `${value*SCREEN_HEIGHT}px`,
             }}></div>
         ))}
         </Row>
