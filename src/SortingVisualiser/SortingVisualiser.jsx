@@ -78,6 +78,7 @@ export default class SortingVisualiser extends React.Component {
     const {array} = this.state;
 
     return (
+      <Row style={{paddingLeft: '10px'}}>
       <Container fluid={true} style={{padding: '0px'}}>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand>Radix Sort Visualiser (LSD)</Navbar.Brand>
@@ -92,11 +93,10 @@ export default class SortingVisualiser extends React.Component {
           <button onClick={() => this.Radix_Sort_LSD()}>Decimal Radix Sort</button>
           </Container>
           </Nav>
-
         </Navbar.Collapse>
       </Navbar>
 
-      <Row className="justify-content-center">
+      <Row className="justify-content-center" style={{width: '100vw'}}>
         {array.map((value, idx) => (
           <div
             className="array-bar"
@@ -110,6 +110,7 @@ export default class SortingVisualiser extends React.Component {
 
 
       </Container>
+      </Row>
     );
   }
 }

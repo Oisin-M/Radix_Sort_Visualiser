@@ -1,5 +1,5 @@
 .array-bar {
-  width: 1vw;
+  width: 1.1vw;
   height: 2px;
   /* display: inline-block; */
   margin-left: 1px;
@@ -8,10 +8,6 @@
 
 .row {
   margin: 0px, 10px, 0px, 10px;
-}
-
-.break {
-  width: 20px;
 }
 
 .container .Main {
