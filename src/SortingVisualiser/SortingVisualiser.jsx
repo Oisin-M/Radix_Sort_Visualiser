@@ -83,8 +83,6 @@ export default class SortingVisualiser extends React.Component {
       <Row style={{paddingLeft: '10px'}}>
       <Container fluid={true} style={{padding: '0px'}}>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand>Radix Sort Visualiser (LSD)</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Brand href="http://oisin-morrison.herokuapp.com" target="_blank">
           <img
             src="https://i.imgur.com/NlNqrth.png"
@@ -94,6 +92,8 @@ export default class SortingVisualiser extends React.Component {
             alt="React Bootstrap logo"
           />
         </Navbar.Brand>
+        <Navbar.Brand>Radix Sort Visualiser (LSD)</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
           <Nav.Link href="https://www.google.com/">About</Nav.Link>
