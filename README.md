@@ -1,4 +1,4 @@
-# View it for yourself!
+# Radix-Sort-Visualiser
 ## This project is live [here](https://oisin-m.github.io/Radix-Sort-Visualiser/)
 
 This project was created using React and CSS Timeouts
